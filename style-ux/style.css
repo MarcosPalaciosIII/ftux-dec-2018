@@ -1,0 +1,45 @@
+/* this is how you target a tag */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* this is how you target an id */
+#theNav {}
+
+/* this is how you target a class */
+.theImageDiv {
+  background-color: #E01100;
+}
+
+  /* =========================== */
+
+img {
+  width: 55vw;
+  border: 10px solid lightslategrey;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+#theNav {
+  background-color: yellow;
+  height: 7vh;
+  padding: 3vh 5vw 0;
+}
+
+#theNav a {
+  padding-left: 2vw;
+  text-decoration: none;
+  font-size: 20px;
+  color: maroon;
+}
+
+.centerContent {
+  padding-left: 20vw;
+}
+
+.newBackgroundColor {
+  background-color: rgb(33, 191, 177);
+}
