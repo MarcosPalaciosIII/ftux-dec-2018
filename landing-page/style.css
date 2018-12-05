@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 8vh 0 0 0;
+}
+
+nav {
+  background-color: rgba(91, 138, 144, 0.85);
+  height: 8vh;
+  padding: 0 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+nav div {
+  display:inline-block;
+}
+
+nav div a {
+  text-decoration: none;
+  padding-left: 1.5vw;
+  color: rgb(25, 24, 88);
+}
+
+.dropDownLink {
+  color: rgb(17, 255, 234);
+}
+
+.innerDropDown {
+  background-color: rgba(232, 126, 215, 0.76);
+}
+
+/* nav div button {
+  padding: 0.6vw;
+  border-radius: 5px;
+} */
+
+/* nav div button:hover {
+  background-color: lime;
+  color: darkblue;
+} */
+
+/* .myHomeButton:hover {
+  background-color: lime;
+  color: darkblue;
+} */
+
+h1 {
+  margin: 0;
+  color: lime;
+  font-size: 8vw;
+}
+
+h4 {
+  margin: 0;
+}
+
+footer {
+  height: 6vh;
+  background-color: lightslategrey;
+  color: khaki;
+  padding-top: 2vh;
+  padding-left: 4vw;
+}
+
+#topDiv {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVeARIXaHSZJBENbjdynYwpROcowK4VnoaIjL-QdDkomyav9hmDA");
+  height: 80vh;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#middleDiv img {
+  width: 20vw;
+  border: 10px double lime;
+  /* border: 3px solid black;
+  border-radius: 50%; */
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .centerNavContent {
+  margin-right: 28vw;
+} */
