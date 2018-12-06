@@ -14,7 +14,7 @@
   <body>
     <nav>
       <div class="centerNavContent">
-        <a href="#topDiv" class="btn btn-outline-danger btn-sm shadow"> Home </a>
+        <a href="#carouselExampleFade" class="btn btn-outline-danger btn-sm shadow"> Home </a>
         <a href="#middleDiv" class="btn btn-warning btn-sm"> About Me </a>
       </div>
 
@@ -23,7 +23,10 @@
       </div>
 
       <div>
-        <a href="#finalDiv"> Details </a>
+        <a href="#finalDiv">
+          <i class="fa fa-superpowers" aria-hidden="true"></i>
+        </a>
+
         <div class="dropdown">
           <a class="btn btn-link btn-sm dropdown-toggle dropDownLink" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Extra Links
@@ -43,33 +46,87 @@
       </div>
     </nav>
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://images8.alphacoders.com/451/451186.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="http://images6.fanpop.com/image/photos/37500000/The-dragon-of-hell-liam-a-dragon-37509157-1920-1080.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://i.pinimg.com/originals/70/ba/c5/70bac5ace2507df472b31cade4f6b20e.jpg">
+        </div>
+      </div>
 
-    <div id="topDiv" class="centerContent">
-      <h1> UX Landing Page </h1>
-    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h1> Landing Page </h1>
+      </div>
 
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-    <div id="middleDiv">
+  <div id="middleDiv" class="row">
 
-      <div class="">
-        <img src="./images/beach.jpg" alt="beach" class="rounded-circle  border-danger">
+    <div class="col-sm-12 col-md-4 centerContent">
+      <img src="./images/beach.jpg" alt="beach" class="rounded-circle  border-danger">
+      <div>
         <p> Draft gabion Jack Tar long clothes hempen halter. Heave down jolly boat chantey boatswain yard. Log gangway bilge water haul wind avast. </p>
       </div>
-
-      <div class="">
-        <img src="./images/fantasy.jpg" alt="fantasy">
-        <p> Pirate Round black jack port reef sails tackle. Plunder list code of conduct strike colors scuppers. Nipper long clothes gibbet belay red ensign. </p>
-      </div>
-
-      <div class="">
-        <img src="./images/island.jpg" alt="island">
-        <p> Chantey mizzenmast topgallant black spot hempen halter. Six pounders grog come about coxswain handsomely. Yard interloper parrel lateen sail crimp. </p>
-      </div>
-
     </div>
 
+    <div class="col-sm-12 col-md-4 centerContent">
+      <img src="./images/fantasy.jpg" alt="fantasy">
+      <div>
+        <p> Pirate Round black jack port reef sails tackle. Plunder list code of conduct strike colors scuppers. Nipper long clothes gibbet belay red ensign. </p>
+      </div>
+    </div>
 
-    <div id="finalDiv">
+    <div class="col-sm-12 col-md-4 centerContent">
+      <img src="./images/island.jpg" alt="island">
+      <div>
+        <p> Chantey mizzenmast topgallant black spot hempen halter. Six pounders grog come about coxswain handsomely. Yard interloper parrel lateen sail crimp. </p>
+      </div>
+    </div>
+  </div>
+
+    <div id="finalDiv" class="row">
+
+      <div class="col-sm-12 col-md-4 centerContent">
+        <div class="circle">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </div>
+
+        <div>
+          <p> Look for me on facebook and add me as your newwest friend. </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 centerContent">
+        <div class="circle">
+          <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
+        </div>
+
+        <div>
+          <p> Look at how kewl my cog is while it is spinning round and round and round. </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 centerContent">
+        <div class="circle">
+          <i class="fa fa-superpowers" aria-hidden="true"></i>
+        </div>
+        <div>
+          <p> I don't know exactly what ravelry is, BUT I like the way that this icon looks. </p>
+        </div>
+      </div>
 
     </div>
 

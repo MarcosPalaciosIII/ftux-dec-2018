@@ -13,6 +13,7 @@ nav {
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 1;
 }
 
 nav div {
@@ -23,14 +24,6 @@ nav div a {
   text-decoration: none;
   padding-left: 1.5vw;
   color: rgb(25, 24, 88);
-}
-
-.dropDownLink {
-  color: rgb(17, 255, 234);
-}
-
-.innerDropDown {
-  background-color: rgba(232, 126, 215, 0.76);
 }
 
 /* nav div button {
@@ -52,6 +45,8 @@ h1 {
   margin: 0;
   color: lime;
   font-size: 8vw;
+  position: relative;
+  bottom: 60vh;
 }
 
 h4 {
@@ -59,19 +54,28 @@ h4 {
 }
 
 footer {
-  height: 6vh;
+  height: 8vh;
   background-color: lightslategrey;
   color: khaki;
-  padding-top: 2vh;
   padding-left: 4vw;
+  display: flex;
+  align-items: center;
 }
 
-#topDiv {
+/* #topDiv {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVeARIXaHSZJBENbjdynYwpROcowK4VnoaIjL-QdDkomyav9hmDA");
   height: 80vh;
   background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+#middleDiv {
+  padding: 5vh 4vw;
+}
+
+#middleDiv div {
+  height: 40vh;
 }
 
 #middleDiv img {
@@ -79,6 +83,39 @@ footer {
   border: 10px double lime;
   /* border: 3px solid black;
   border-radius: 50%; */
+  margin-bottom: 3vh;
+}
+
+#finalDiv {
+  padding: 5vh 4vw;
+  margin-bottom: 3vh;
+}
+
+#finalDiv i {
+  font-size: 70px;
+  color: rgb(204, 53, 53);
+  /* padding: 2vw;
+  border: 9px solid rgb(204, 53, 53);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px; */
+}
+
+.dropDownLink {
+  color: rgb(17, 255, 234);
+}
+
+.innerDropDown {
+  background-color: rgba(232, 126, 215, 0.76);
+}
+
+.circle {
+  padding: 30px;
+  border: 9px solid rgb(204, 53, 53);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 3vh;
 }
 
 .centerContent {
@@ -86,6 +123,10 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.carousel-item img {
+  height: 92vh;
 }
 
 /* .centerNavContent {
