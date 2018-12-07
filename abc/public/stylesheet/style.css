@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+nav {
+  padding: 2vh 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav .navLinks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav .navLinks div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav .navLinks a {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+nav .navLinks i {
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+#searchBarSection {
+  background-color: #6A7987;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#searchBarSection div {
+  display: flex;
+  align-items: center;
+}
+
+#imaginary_container .input-group {
+  margin-right: 19px;
+}
+
+.promoText h4 {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 1px;
+  font-size: 17px;
+  margin: 0;
+}
+
+.promoText span {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.promoAndSearch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.input-group-addon span {
+  padding: 10px;
+  margin-bottom: 0.8px;
+}
+
+.input-group input {
+  padding: 7px 40px 7px 15px;
+}
